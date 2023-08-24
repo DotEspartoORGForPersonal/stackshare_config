@@ -24,3 +24,11 @@ apps:
     org_id: Vamsee-org
     repos:
       - url: 'https://github.com/Vamsee-org/vamsee-repo'
+  - id: all-repo-app
+    org_id: Vamsee-org
+    repos:
+      - url: 'https://github.com/Vamsee-org/vamsee-repo'
+      - url: 'https://github.com/Bhautik-org/Bhautik-Repo'
+      - url: 'https://bitbucket.org/abhishek-org/abhishek-repo'
+
+      
