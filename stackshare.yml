@@ -3,6 +3,7 @@ orgs:
   - id: bhautik-org
   - id: hasan-test-org-for-azure
   - id: vamsee-org
+  - id: vamsee-org
 apps:
   - id: bhautik-application
     org_id: abhishek-org
