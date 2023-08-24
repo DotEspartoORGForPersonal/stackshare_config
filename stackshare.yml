@@ -2,8 +2,6 @@ orgs:
   - id: abhishek-org
   - id: bhautik-org
   - id: hasan-test-org-for-azure
-  - id: vamsee-org
-
 apps:
   - id: bhautik-application
     org_id: abhishek-org
@@ -22,7 +20,7 @@ apps:
     repos:
       - url: 'https://github.com/Bhautik-org/Bhautik-Repo'
   - id: vamsee-app
-    org_id: Vamsee-org
+    org_id: vamsee-org
     repos:
       - url: 'https://github.com/Vamsee-org/vamsee-repo'
   - id: all-repo-app
@@ -31,3 +29,7 @@ apps:
       - url: 'https://github.com/Vamsee-org/vamsee-repo'
       - url: 'https://github.com/Bhautik-org/Bhautik-Repo'
       - url: 'https://bitbucket.org/abhishek-org/abhishek-repo'
+  - id: newapp
+    org_id: Vamsee-org
+    repos:
+      - url: 'https://github.com/Vamsee-org/vamsee-repo'
