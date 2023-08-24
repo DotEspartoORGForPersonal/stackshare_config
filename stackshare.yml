@@ -3,6 +3,7 @@ orgs:
   - id: bhautik-org
   - id: hasan-test-org-for-azure
   - id: vamsee-org
+  - id: sumit
   
 apps:
   - id: bhautik-application
@@ -39,3 +40,4 @@ apps:
     org_id: vamsee-org
     repos:
       - url: 'https://github.com/Vamsee-org/vamsee-repo'
+      - url: 'https://github.com/Vamsee-org/sumit-repo'
