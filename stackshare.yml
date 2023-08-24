@@ -35,3 +35,7 @@ apps:
     org_id: vamsee-org
     repos:
       - url: 'https://github.com/Vamsee-org/vamsee-repo'
+  - id: jira
+    org_id: vamsee-org
+    repos:
+      - url: 'https://github.com/Vamsee-org/vamsee-repo'
