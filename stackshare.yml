@@ -1,0 +1,26 @@
+orgs:
+  - id: abhishek-org
+  - id: bhautik-org
+  - id: hasan-test-org-for-azure
+  - id: Vamsee-org
+apps:
+  - id: bhautik-application
+    org_id: abhishek-org
+    repos:
+      - url: 'https://bitbucket.org/abhishek-org/abhishek-repo'
+  - id: bhautik-application
+    org_id: bhautik-org
+    repos:
+      - url: 'https://bitbucket.org/abhishek-org/abhishek-repo'
+  - id: abhishek-application
+    org_id: bhautik-org
+    repos:
+      - url: 'https://github.com/Bhautik-org/Bhautik-Repo'
+  - id: test-project--hasan-
+    org_id: hasan-test-org-for-azure
+    repos:
+      - url: 'https://github.com/Bhautik-org/Bhautik-Repo'
+  - id: vamsee-app
+    org_id: Vamsee-org
+    repos:
+      - url: 'https://github.com/Vamsee-org/vamsee-repo'
