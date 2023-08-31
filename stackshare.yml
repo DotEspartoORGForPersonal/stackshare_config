@@ -2,6 +2,7 @@ orgs:
   - id: abhishek-org
   - id: bhautik-org
   - id: new-org
+  - id: new-org-2
 apps:
   - id: abhishek-application
     org_id: abhishek-org
@@ -20,4 +21,8 @@ apps:
     repos:
       - url: 'https://bitbucket.org/abhishek-org/abhishek-repo'
       - url: 'https://github.com/Bhautik-org/Bhautik-Repo'
+      - url: 'https://bitbucket.org/abhishek-org/discourse'
+  - id: manually-created-app-3
+    org_id: new-org-2
+    repos:
       - url: 'https://bitbucket.org/abhishek-org/discourse'
