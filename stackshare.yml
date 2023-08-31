@@ -1,6 +1,7 @@
 orgs:
   - id: abhishek-org
   - id: bhautik-org
+  - id: new-org
 apps:
   - id: abhishek-application
     org_id: abhishek-org
@@ -14,3 +15,8 @@ apps:
       - url: 'https://bitbucket.org/abhishek-org/abhishek-repo'
       - url: 'https://github.com/Bhautik-org/Bhautik-Repo'
       - url: 'https://github.com/bhautik-org/stackshare_config'
+  - id: manually-created-app-2
+    org_id: new-org
+    repos:
+      - url: 'https://bitbucket.org/abhishek-org/abhishek-repo'
+      - url: 'https://github.com/Bhautik-org/Bhautik-Repo'
