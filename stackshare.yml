@@ -1,43 +1,16 @@
 orgs:
   - id: abhishek-org
   - id: bhautik-org
-  - id: hasan-test-org-for-azure
-  - id: vamsee-org
-  - id: sumit
-  
 apps:
-  - id: bhautik-application
+  - id: abhishek-application
     org_id: abhishek-org
     repos:
       - url: 'https://bitbucket.org/abhishek-org/abhishek-repo'
-  - id: bhautik-application
+      - url: 'https://github.com/Bhautik-org/Bhautik-Repo'
+      - url: 'https://github.com/bhautik-org/stackshare_config'
+  - id: manually-created-app-1
     org_id: bhautik-org
     repos:
       - url: 'https://bitbucket.org/abhishek-org/abhishek-repo'
-  - id: abhishek-application
-    org_id: bhautik-org
-    repos:
       - url: 'https://github.com/Bhautik-org/Bhautik-Repo'
-  - id: test-project--hasan-
-    org_id: hasan-test-org-for-azure
-    repos:
-      - url: 'https://github.com/Bhautik-org/Bhautik-Repo'
-  - id: vamsee-app
-    org_id: vamsee-org
-    repos:
-      - url: 'https://github.com/Vamsee-org/vamsee-repo'
-  - id: all-repo-app
-    org_id: vamsee-org
-    repos:
-      - url: 'https://github.com/Vamsee-org/vamsee-repo'
-      - url: 'https://github.com/Bhautik-org/Bhautik-Repo'
-      - url: 'https://bitbucket.org/abhishek-org/abhishek-repo'
-  - id: newapp
-    org_id: vamsee-org
-    repos:
-      - url: 'https://github.com/Vamsee-org/vamsee-repo'
-  - id: jira
-    org_id: vamsee-org
-    repos:
-      - url: 'https://github.com/Vamsee-org/vamsee-repo'
-      - url: 'https://github.com/CopCatt/Discourse'
+      - url: 'https://github.com/bhautik-org/stackshare_config'
