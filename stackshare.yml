@@ -20,3 +20,4 @@ apps:
     repos:
       - url: 'https://bitbucket.org/abhishek-org/abhishek-repo'
       - url: 'https://github.com/Bhautik-org/Bhautik-Repo'
+      - url: 'https://bitbucket.org/abhishek-org/discourse'
