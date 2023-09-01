@@ -1,5 +1,6 @@
 orgs:
   - id: abhishek-org
+  - id: new-org
   - id: new-org-2
     parent_org_id: abhishek-org
   - id: bhautik-org
