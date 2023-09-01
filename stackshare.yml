@@ -3,7 +3,6 @@ orgs:
   - id: new-org-2
     parent_org_id: abhishek-org
   - id: bhautik-org
-  - id: bhautik-org
     parent_org_id: new-org
 apps:
   - id: abhishek-application
