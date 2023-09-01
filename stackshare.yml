@@ -4,6 +4,7 @@ orgs:
     parent_org_id: abhishek-org
   - id: bhautik-org
   - id: new-org
+    parent_org_id: bhautik-org
 apps:
   - id: abhishek-application
     org_id: abhishek-org
