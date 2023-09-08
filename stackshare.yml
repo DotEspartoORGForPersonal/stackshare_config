@@ -1,4 +1,5 @@
 orgs:
+  - id: vamsee-org
   - id: bhautik-org
     parent_org_id: vamsee-org
 apps:
