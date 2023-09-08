@@ -1,30 +1,8 @@
 orgs:
-  - id: abhishek-org
-  - id: new-org
-  - id: new-org-2
-    parent_org_id: abhishek-org
   - id: bhautik-org
-    parent_org_id: new-org
 apps:
   - id: abhishek-application
-    org_id: abhishek-org
-    repos:
-      - url: 'https://bitbucket.org/abhishek-org/abhishek-repo'
-      - url: 'https://github.com/Bhautik-org/Bhautik-Repo'
-      - url: 'https://github.com/bhautik-org/stackshare_config'
-  - id: manually-created-app-1
     org_id: bhautik-org
     repos:
-      - url: 'https://bitbucket.org/abhishek-org/abhishek-repo'
       - url: 'https://github.com/Bhautik-org/Bhautik-Repo'
-      - url: 'https://github.com/bhautik-org/stackshare_config'
-  - id: manually-created-app-2
-    org_id: new-org
-    repos:
-      - url: 'https://bitbucket.org/abhishek-org/abhishek-repo'
-      - url: 'https://github.com/Bhautik-org/Bhautik-Repo'
-      - url: 'https://bitbucket.org/abhishek-org/discourse'
-  - id: manually-created-app-3
-    org_id: new-org-2
-    repos:
-      - url: 'https://bitbucket.org/abhishek-org/discourse'
+
