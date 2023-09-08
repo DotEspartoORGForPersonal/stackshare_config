@@ -1,5 +1,6 @@
 orgs:
   - id: bhautik-org
+    parent_org_id: abhishek-org
 apps:
   - id: abhishek-application
     org_id: bhautik-org
