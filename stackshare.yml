@@ -1,10 +1,20 @@
 orgs:
   - id: vamsee-org
   - id: bhautik-org
-    parent_org_id: vamsee-org
+  - id: manual-1
+  - id: manual-2
+  - id: vamsee-org
+    parent_org_id: manual-1
+  - id: bhautik-org
+    parent_org_id: manual-2
 apps:
+  - id: manual-1
+    org_id: vamsee-org
+    repos:
+      - url: https://github.com/Vamsee-org/vamsee-repo
   - id: abhishek-application
     org_id: bhautik-org
     repos:
+      - url: https://github.com/Bhautik-org/Bhautik-Repo
 
 
