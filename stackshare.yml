@@ -13,7 +13,7 @@ orgs:
   - id: manual-10
   - id: manual-11
   - id: vamsee-org
-    parent_org_id: manual-1
+    parent_org_id: manual-2
   - id: manual-2
     parent_org_id: vamsee-org
   - id: manual-3
