@@ -3,18 +3,56 @@ orgs:
   - id: bhautik-org
   - id: manual-1
   - id: manual-2
+  - id: manual-3
+  - id: manual-4
+  - id: manual-5
+  - id: manual-6
+  - id: manual-7
+  - id: manual-8
+  - id: manual-9
+  - id: manual-10
+  - id: manual-11
   - id: vamsee-org
     parent_org_id: manual-1
-  - id: bhautik-org
+  - id: manual-2
+    parent_org_id: vamsee-org
+  - id: manual-3
     parent_org_id: manual-2
-apps:
+  - id: manual-4
+    parent_org_id: manual-3
+  - id: manual-5
+    parent_org_id: manual-4
+  - id: manual-6
+    parent_org_id: manual-5
+  - id: manual-7
+    parent_org_id: manual-6
+  - id: manual-8
+    parent_org_id: manual-7
+  - id: manual-9
+    parent_org_id: manual-8
+  - id: manual-10
+    parent_org_id: manual-9
+  - id: manual-11
+    parent_org_id: manual-10
   - id: manual-1
-    org_id: vamsee-org
-    repos:
-      - url: https://github.com/Vamsee-org/vamsee-repo
-  - id: abhishek-application
-    org_id: bhautik-org
-    repos:
-      - url: https://github.com/Bhautik-org/Bhautik-Repo
-
-
+    parent_org_id: bhautik-org
+  - id: manual-2
+    parent_org_id: bhautik-org
+  - id: manual-3
+    parent_org_id: bhautik-org
+  - id: manual-4
+    parent_org_id: bhautik-org
+  - id: manual-5
+    parent_org_id: bhautik-org
+  - id: manual-6
+    parent_org_id: bhautik-org
+  - id: manual-7
+    parent_org_id: bhautik-org
+  - id: manual-8
+    parent_org_id: bhautik-org
+  - id: manual-9
+    parent_org_id: bhautik-org
+  - id: manual-10
+    parent_org_id: bhautik-org
+  - id: manual-11
+    parent_org_id: bhautik-org
