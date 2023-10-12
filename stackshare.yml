@@ -32,4 +32,17 @@ orgs:
     parent_org_id: org-9
   - id: org-11
     parent_org_id: org-10
-  
+apps:
+  - id: bhautik-app
+    org_id: org-10
+    repos:
+      - url: 'https://github.com/Bhautik-org/Bhautik-repo2'
+      - url: 'https://github.com/Bhautik-org/HDFC'
+      - url: 'https://github.com/Bhautik-org/clojars-demo'
+      - url: 'https://github.com/Bhautik-org/Bhautik-Repo'
+  - id: vamsee-app
+    org_id: org-9
+    repos:
+      - url: 'https://github.com/VAMSEE-ORG/Bhautik-Repo'
+      - url: 'https://github.com/VAMSEE-ORG/SBI'
+      - url: 'https://github.com/VAMSEE-ORG/vamsee-repo'
