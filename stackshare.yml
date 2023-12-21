@@ -1,48 +1,15 @@
 orgs:
-  - id: vamsee-org
-  - id: bhautik-org
-  - id: org-1
-  - id: org-2
-  - id: org-3
-  - id: org-4
-  - id: org-5
-  - id: org-6
-  - id: org-7
-  - id: org-8
-  - id: org-9
-  - id: org-10
-  - id: org-11
-  - id: org-2
-    parent_org_id: org-1
-  - id: org-3
-    parent_org_id: org-2
-  - id: org-4
-    parent_org_id: org-3
-  - id: org-5
-    parent_org_id: org-4
-  - id: org-6
-    parent_org_id: org-5
-  - id: org-7
-    parent_org_id: org-6
-  - id: org-8
-    parent_org_id: org-7
-  - id: org-9
-    parent_org_id: org-8
-  - id: org-10
-    parent_org_id: org-9
-  - id: org-11
-    parent_org_id: org-10
+  - id: org-a
+  - id: org-b
+  - id: org-c
+  - id: VAMSEE-ORG
+    parent_org_id: org-a
+  - id: dotespartoorgforpersonal
+    parent_org_id: org-b
+  - id: ss-test-org-dinefleshh
+    parent_org_id: org-c
 apps:
-  - id: bhautik-app
-    org_id: org-10
+  - id: app-1
+    org_id: dotespartoorgforpersonal
     repos:
-      - url: 'https://github.com/Bhautik-org/Bhautik-repo2'
-      - url: 'https://github.com/Bhautik-org/HDFC'
-      - url: 'https://github.com/Bhautik-org/clojars-demo'
-      - url: 'https://github.com/Bhautik-org/Bhautik-Repo'
-  - id: vamsee-app
-    org_id: org-9
-    repos:
-      - url: 'https://github.com/VAMSEE-ORG/Bhautik-Repo'
       - url: 'https://github.com/VAMSEE-ORG/SBI'
-      - url: 'https://github.com/VAMSEE-ORG/vamsee-repo'
